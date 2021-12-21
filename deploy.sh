@@ -6,8 +6,8 @@ set -e
 # build
 npm run build
 rm -rf docs
-cp -a dist docs
+mv dist docs
 touch docs/.nojekyll
-git add dist docs
+git add docs
 git commit -m "deploy"
 git push origin main
