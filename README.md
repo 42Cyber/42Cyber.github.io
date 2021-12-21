@@ -18,4 +18,5 @@ To run the dev server:
 There is an Astro extension to highlight the pages on VSCode
 
 Full documentation:
+
 [astro.build](https://astro.build)
