@@ -3,6 +3,10 @@ webpage for the league
 
 ## How to use
 
+Requirements:
+
+``npm``
+
 To install:
 
 ``npm install``
