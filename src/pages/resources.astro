@@ -8,14 +8,14 @@ interface MarkdownFrontmatter {
   publishDate: number;
 }
 
-const events = Astro.fetchContent<MarkdownFrontmatter>('./event/**/*.md')
+const resources = Astro.fetchContent<MarkdownFrontmatter>('./resources/**/*.md')
   .filter(({ publishDate }) => !!publishDate)
   .sort((a, b) => new Date(b.publishDate).valueOf() - new Date(a.publishDate).valueOf());
 ---
 
 <html lang="en">
   <head>
-    <MainHead title="Todos los eventos" description="Los eventos pasados y futuros de la liga de ciberseguridad" />
+    <MainHead title="Todos los recursos" description="Los recursos pasados y futuros de la liga de ciberseguridad" />
     <style lang="scss">
       .grid {
         display: grid;
@@ -26,10 +26,10 @@ const events = Astro.fetchContent<MarkdownFrontmatter>('./event/**/*.md')
   <body>
     <Nav />
     <div class="wrapper">
-      <h1 class="title mt4 mb4">Eventos</h1>
+      <h1 class="title mt4 mb4">Recursos</h1>
       <div class="grid">
-        {events.map((event) => (
-          <PortfolioPreview event={event} />
+        {resources.map((resource) => (
+          <PortfolioPreview event={resource} />
         ))}
       </div>
     </div>

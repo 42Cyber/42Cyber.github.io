@@ -13,3 +13,13 @@
   font-size: var(--f-d2);
   text-transform: uppercase;
 }
+
+
+.logo42 {
+  width: 2em;
+}
+// fire effect on hover
+.logo42:hover {
+  animation: logo42 1s infinite;
+}
+
