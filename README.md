@@ -7,7 +7,7 @@ To install:
 
 ``npm install``
 
-To build:
+To build and push:
 
 ``bash deploy.sh``
 
@@ -16,3 +16,5 @@ To run the dev server:
 ``npm run dev``
 
 There is an Astro extension to highlight the pages on VSCode
+Full documentation:
+[astro.build](https://astro.build)
