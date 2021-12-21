@@ -11,5 +11,16 @@ tags:
   - cybersecurity
   - workshops
 ---
+# Reversing: Level00
 
+El taller, de una hora aproximada de duración, consistió en un temario básico de la ingeniería inversa y el análisis de binarios.
+
+Se trataron las siguientes herramientas:
+- Binutils
+- Strace, Ltrace
+- GDB
+- Binary Ninja
+- Ghidra
+
+[Diapositivas](https://42born2code.slack.com/archives/C02F8N4QX27/p1638289768129600)
 
