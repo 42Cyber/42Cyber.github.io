@@ -5,4 +5,5 @@ set -e
 
 # build
 npm run build
-
+rm -rf docs
+cp -a dist docs
