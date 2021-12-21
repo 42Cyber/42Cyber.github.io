@@ -7,7 +7,7 @@ function Nav() {
         <div className={Styles.monogram}>CS</div>
       </a>
       <a href="/">
-      <img className={Styles.monogram, Styles.logo}  src="https://upload.wikimedia.org/wikipedia/commons/8/8d/42_Logo.svg"></img>
+      <img className={Styles.logo}  src="https://upload.wikimedia.org/wikipedia/commons/8/8d/42_Logo.svg"></img>
       </a>
       <a className={Styles.link} href="/events">
         Eventos

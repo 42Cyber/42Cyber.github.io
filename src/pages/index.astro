@@ -9,6 +9,8 @@ import PortfolioPreview from '../components/PortfolioPreview/index.jsx';
 // Data Fetching: List all Markdown posts in the repo.
 const events = Astro.fetchContent("./event/**/*.md");
 const featuredEvent = events[0];
+const resources = Astro.fetchContent("./resources/**/*.md");
+const featuredResource = resources[0];
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
@@ -211,6 +213,15 @@ const featuredEvent = events[0];
         <div class="section">
           <h3 class="sectionTitle">Eventos</h3>
           <PortfolioPreview event={featuredEvent} />
+          <div class="tac mt4">
+            <a href="/events">
+              <Button>Ver todo</Button>
+            </a>
+          </div>
+        </div>
+        <div class="section">
+          <h3 class="sectionTitle">Recursos</h3>
+          <PortfolioPreview event={featuredResource} />
           <div class="tac mt4">
             <a href="/events">
               <Button>Ver todo</Button>
