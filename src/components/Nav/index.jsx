@@ -7,7 +7,7 @@ function Nav() {
         <div className={Styles.monogram}>CS</div>
       </a>
       <a href="/">
-      <img className={Styles.logo}  src="https://upload.wikimedia.org/wikipedia/commons/8/8d/42_Logo.svg"></img>
+        <img className={Styles.logo} src="https://www.42madrid.com/wp-content/uploads/2019/11/logo-header@2x.png"></img>
       </a>
       <a className={Styles.link} href="/events">
         Eventos

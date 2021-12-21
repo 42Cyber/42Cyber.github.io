@@ -12,13 +12,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2em;
-  height: 2em;
+  height: 2rem;
   margin-right: 0.5rem;
   color: var(--c-black);
   font-weight: 900;
   letter-spacing: -0.125rem;
+  // inverted color
+  filter: invert(1);
+}
 
+@media screen and (max-width: 700px){
+  .logo {
+    display: none;
+  }
 }
 
 .logolink {
