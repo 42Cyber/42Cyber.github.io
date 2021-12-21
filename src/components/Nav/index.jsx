@@ -4,7 +4,10 @@ function Nav() {
   return (
     <nav className={Styles.nav}>
       <a className={Styles.logolink} href="/">
-        <div className={Styles.monogram}>Cs</div>
+        <div className={Styles.monogram}>CS</div>
+      </a>
+      <a href="/">
+      <img className={Styles.monogram, Styles.logo}  src="https://upload.wikimedia.org/wikipedia/commons/8/8d/42_Logo.svg"></img>
       </a>
       <a className={Styles.link} href="/events">
         Eventos
