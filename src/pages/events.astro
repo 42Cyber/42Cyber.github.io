@@ -1,0 +1,38 @@
+---
+import MainHead from '../components/MainHead.astro';
+import Footer from '../components/Footer/index.jsx';
+import Nav from '../components/Nav/index.jsx';
+import PortfolioPreview from '../components/PortfolioPreview/index.jsx';
+
+interface MarkdownFrontmatter {
+  publishDate: number;
+}
+
+const events = Astro.fetchContent<MarkdownFrontmatter>('./event/**/*.md')
+  .filter(({ publishDate }) => !!publishDate)
+  .sort((a, b) => new Date(b.publishDate).valueOf() - new Date(a.publishDate).valueOf());
+---
+
+<html lang="en">
+  <head>
+    <MainHead title="All Events | Jeanine White" description="Learn about Jenine White's most recent events" />
+    <style lang="scss">
+      .grid {
+        display: grid;
+        grid-gap: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <Nav />
+    <div class="wrapper">
+      <h1 class="title mt4 mb4">All Events</h1>
+      <div class="grid">
+        {events.map((event) => (
+          <PortfolioPreview event={event} />
+        ))}
+      </div>
+    </div>
+    <Footer />
+  </body>
+</html>
