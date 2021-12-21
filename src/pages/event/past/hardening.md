@@ -7,7 +7,7 @@ img: https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?ixlib=rb-1.2.1
 description: |
   Taller práctico de fortificación de entornos UNIX de la mano de un experto de Telefónica Tech
 tags:
-  - reverse engineering
+  - hardening
   - cybersecurity
   - workshops
 ---
