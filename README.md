@@ -19,6 +19,8 @@ To run the dev server:
 
 ``npm run dev``
 
+Github Page reads compiled files from ``docs/`` folder.
+
 There is an Astro extension to highlight the pages on VSCode
 
 Full documentation:
