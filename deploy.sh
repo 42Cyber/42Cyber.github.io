@@ -9,5 +9,5 @@ rm -rf docs
 mv dist docs
 touch docs/.nojekyll
 git add docs
-git commit -m "deploy"
+git commit -m "$(date)"
 git push origin main
