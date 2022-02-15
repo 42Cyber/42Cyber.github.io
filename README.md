@@ -1,28 +1,24 @@
-# 42Cyber.github.io
-webpage for the league
+# Astro Starter Kit: Portfolio
 
-## How to use
+```
+npm init astro -- --template portfolio
+```
 
-Requirements:
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/portfolio)
 
-``npm``
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-To install:
+## 🧞 Commands
 
-``npm install``
+All commands are run from the root of the project, from a terminal:
 
-To build and push:
+| Command           | Action                                       |
+|:----------------  |:-------------------------------------------- |
+| `npm install`     | Installs dependencies                        |
+| `npm run dev`     | Starts local dev server at `localhost:3000`  |
+| `npm run build`   | Build your production site to `./dist/`      |
+| `npm run preview` | Preview your build locally, before deploying |
 
-``bash deploy.sh``
+## 👀 Want to learn more?
 
-To run the dev server:
-
-``npm run dev``
-
-Github Page reads compiled files from ``docs/`` folder.
-
-There is an Astro extension to highlight the pages on VSCode
-
-Full documentation:
-
-[astro.build](https://astro.build)
+Feel free to check [our documentation](https://github.com/withastro/astro) or jump into our [Discord server](https://astro.build/chat).
