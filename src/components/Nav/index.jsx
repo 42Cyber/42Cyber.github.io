@@ -12,12 +12,12 @@ function Nav() {
       <a className={Styles.link} href="/events">
         Eventos
       </a>
-      <a className={Styles.link} href="/resources">
+      {/* <a className={Styles.link} href="/resources">
         Recursos
       </a>
       <a className={Styles.link} href="/about">
         Sobre nosotros
-      </a>
+      </a> */}
       <a className={Styles.link} href="http://ctf.hacku.org">
         CTF
       </a>
