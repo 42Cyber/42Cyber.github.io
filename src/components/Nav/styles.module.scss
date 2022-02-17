@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 2rem;
+  height:1.6rem;
   margin-right: 0.5rem;
   color: var(--c-black);
   font-weight: 900;
@@ -20,6 +20,22 @@
   // inverted color
   filter: invert(1);
 }
+
+.cybersec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5em;
+  height: 2.5em;
+  margin-right: 0.5rem;
+  color: var(--c-black);
+  font-weight: 900;
+  letter-spacing: -0.125rem;
+  // border: 3px solid currentColor;
+  // border-radius: 50%;
+
+}
+
 
 @media screen and (max-width: 700px){
   .logo {

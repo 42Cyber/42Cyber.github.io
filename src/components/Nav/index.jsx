@@ -4,7 +4,7 @@ function Nav() {
   return (
     <nav className={Styles.nav}>
       <a className={Styles.logolink} href="/">
-        <div className={Styles.monogram}>CS</div>
+        <div className={Styles.cybersec}><img src="/assets/cybersec_ico.png"/></div>
       </a>
       <a href="/">
         <img className={Styles.logo} src="https://www.42madrid.com/wp-content/uploads/2019/11/logo-header@2x.png"></img>
@@ -18,7 +18,7 @@ function Nav() {
       <a className={Styles.link} href="/about">
         Sobre nosotros
       </a> */}
-      <a className={Styles.link} href="http://ctf.hacku.org">
+      <a className={Styles.link} href="https://ctf.hacku.org">
         CTF
       </a>
       <a className={Styles.social} href="https://twitter.com/42madridftef">
