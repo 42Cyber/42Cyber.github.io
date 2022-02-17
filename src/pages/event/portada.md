@@ -14,7 +14,7 @@ tags:
 
 La liga de Ciberseguridad lanza el mayor desafío de la historia de 42 Madrid. Llega el CTF (Capture The Flag) “**Stairway to Hell**”. Un desafío de 48 horas non-stop en el que podrás poner a prueba tus skills (o falta de ellas) junto a tus compañeros en varios retos relacionados con la criptografía, las redes, la seguridad web, etc.
 
-El reto tendrá lugar del **25 de febrero a las 18 horas al 27 de febrero a las 23:42 horas**. Podrás apuntarte en equipos de 1 a 3 personas. ¡Habrá pizzas el viernes por la noche!
+El reto tendrá lugar del **25 de febrero a las 18 horas al 27 de febrero a las 18:42 horas**. Podrás apuntarte en equipos de 1 a 3 personas. ¡Habrá pizzas el viernes por la noche!
 
 Para formar los equipos, podrás juntarte con compañeros de cualquier campus de 42 en España o invitar a tus amigos para enfrentarte a los retos (consulta con tu campus). Dispondrás de los Macs de 42 para lo que necesites, pero también podrás participar desde cualquier equipo en remoto.
 
