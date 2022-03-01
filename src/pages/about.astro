@@ -7,6 +7,7 @@ import Nav from '../components/Nav/index.jsx';
 
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <MainHead title="42 Cybersec" description="Web oficial de la asociación de estudiantes de ciberseguridad de 42 Madrid Fundación Telefónica" />
     <style lang="scss">
       .heroImg {
@@ -23,6 +24,38 @@ import Nav from '../components/Nav/index.jsx';
         font-size: var(--f-u1);
         line-height: 2;
       }
+
+      // cropped into a circle
+      .intra_pic {
+        border-radius: 50%;
+        height: calc(var(--f-u1) * 7);
+        width: calc(var(--f-u1) * 7);
+        object-fit: cover;
+        overflow: hidden;
+      }
+      // align items in center
+
+      .linkedin_row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .linkedin_and_pic {
+        margin: 0 auto;
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .social_media_logos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
     </style>
   </head>
   <body>
@@ -32,14 +65,52 @@ import Nav from '../components/Nav/index.jsx';
       <div class="heroImg">
         <img width="1400" height="350" src="https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80?auto=format&fit=crop&w=1400&h=350&q=75" />
       </div>
-      <div class="bio wrapper wrapper__readable mt8">
+      <div >
+        <!-- items centered -->
+        <div class="linkedin_row">
+            <div class="linkedin_and_pic">
+              <img class="intra_pic" src="https://cdn.intra.42.fr/users/large_juanrodr.jpg" alt="juanrodr"/>
+              <div>
+                <a href="https://linkedin.com/in/juanrs"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+                <!-- github logo -->
+                <a href="https://github.com/juanrd10"><i class="fa fa-github-square" style="font-size:36px"></i></a>
+              </div> 
+            </div>
+            <div class="linkedin_and_pic">
+              <img class="intra_pic" src="https://cdn.intra.42.fr/users/large_darodrig.jpg" alt="darodrig"/>
+              
+              <div>
+                <a href="https://linkedin.com/in/davidrelipe"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+                <!-- github logo -->
+                <a href="https://github.com/d-r-e"><i class="fa fa-github-square" style="font-size:36px"></i></a>
+              </div> 
+            </div>
+            <div class="linkedin_and_pic">
+              <img class="intra_pic" src="https://cdn.intra.42.fr/users/large_dpuente-.jpg" alt="dpuente-"/>
+              <div>
+                <a href="https://linkedin.com/in/david-puente-rodríguez"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+                <!-- github logo -->
+                <a href="https://github.com/Davyd11"><i class="fa fa-github-square" style="font-size:36px"></i></a>
+              </div>
+
+            </div>
+            <div class="linkedin_and_pic">
+              <img class="intra_pic" src="https://cdn.intra.42.fr/users/large_acostal-.jpg" alt="acostal-"/>
+                         <div>
+                <a href="https://linkedin.com/in/0xk0sta"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+                <!-- github logo -->
+                <a href="https://github.com/0xk0sta"><i class="fa fa-github-square" style="font-size:36px"></i></a>
+              </div> 
+            </div>
+        </div>
         <p>
           42 Cybersec es la asociación de estudiantes que promueve actividades y eventos relacionados con la ciberseguridad y el hacking ético.
         </p>
         <p>
           Utilizamos un canal privado en Slack para comunicarnos, enviar información interesante y anunciar eventos futuros. Si quieres ser parte, contacta con 
           <a href="https://profile.intra.42.fr/users/darodrig">@darodrig</a>,
-          <a href="https://profile.intra.42.fr/users/dpuente-">@dpuente-</a>
+          <a href="https://profile.intra.42.fr/users/dpuente-">@dpuente-</a>,
+          <a href="https://profile.intra.42.fr/users/acostal-">@acostal-</a>
           o
           <a href="https://profile.intra.42.fr/users/juanrodr">@juanrodr</a>
 
