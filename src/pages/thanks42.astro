@@ -1,0 +1,74 @@
+---
+import MainHead from '../components/MainHead.astro';
+import Footer from '../components/Footer/index.jsx';
+import Nav from '../components/Nav/index.jsx';
+
+---
+
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <MainHead title="42 Cybersec" description="Web oficial de la asociación de estudiantes de ciberseguridad de 42 Madrid Fundación Telefónica" />
+    <style lang="scss">
+      .heroImg {
+        max-height: 24rem;
+        object-fit: cover;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .bio {
+        font-size: var(--f-u1);
+        line-height: 2;
+      }
+
+      // cropped into a circle
+      .intra_pic {
+        border-radius: 50%;
+        height: calc(var(--f-u1) * 7);
+        width: calc(var(--f-u1) * 7);
+        object-fit: cover;
+        overflow: hidden;
+      }
+      // align items in center
+
+      .linkedin_row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .linkedin_and_pic {
+        margin: 0 auto;
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .social_media_logos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <Nav />
+    <div class="wrapper">
+      <h1>¡Gracias!</h1>
+      <div class="heroImg">
+        <img width="1400" height="350" src="https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80?auto=format&fit=crop&w=1400&h=350&q=75" />
+      </div>
+      <div >
+        <p>Pronto comienza una nueva etapa en nuestra vida, y queremos dar las gracias a 42 Madrid, al staff, quienes habéis hecho posible todo el camino que nos ha llevado hasta el día de hoy.</p>
+      </div>
+    </div>
+    <Footer />
+</body>
+</html>
